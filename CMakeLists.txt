@@ -12,5 +12,5 @@ set(EXTRA_COMPONENT_DIRS
     components/ssd1306
     #components/other_component
 )
-
+set(EXTRA_COMPONENT_DIRS components/sd_card)
 

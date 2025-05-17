@@ -1,0 +1,11 @@
+# Bỏ qua folder và file không cần thiết
+build/
+*.log
+*.obj
+*.bin
+*.elf
+*.map
+*.a
+.vscode/
+*.pyc
+__pycache__/
