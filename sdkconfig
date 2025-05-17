@@ -427,7 +427,7 @@ CONFIG_SDA_GPIO=21
 CONFIG_RESET_GPIO=15
 CONFIG_I2C_PORT_0=y
 # CONFIG_I2C_PORT_1 is not set
-CONFIG_LEGACY_DRIVER=y  #Bản cũ giao tiếp I2C để giống với MAX30102
+CONFIG_LEGACY_DRIVER=y  # Bản cũ giao tiếp I2C để giống với MAX30102
 # end of SSD1306 Configuration
 
 #
