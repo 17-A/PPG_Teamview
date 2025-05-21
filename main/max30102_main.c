@@ -128,6 +128,7 @@ void max30102_main(void *pvParameter) {
     // MAX30102
     i2c_dev_t dev_max;
     memset(&dev_max, 0, sizeof(i2c_dev_t));
+    i2c_dev_create_mutex(&dev_max);
     ESP_ERROR_CHECK(max30102_initDesc(&dev_max, I2C_MASTER_NUM, I2C_MASTER_SDA_IO, I2C_MASTER_SCL_IO));
     ESP_ERROR_CHECK(max30102_readPartID(&dev_max));
     ESP_ERROR_CHECK(max30102_init(
